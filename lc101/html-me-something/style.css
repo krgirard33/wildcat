@@ -18,7 +18,8 @@ html, body {
 }
 
 body {
-  background-color: #D2B48C
+  background-color: #D2B48C;
+  background-image: url(../images/page-bg.gif);
 }
 #main {
     position: relative;
@@ -28,39 +29,53 @@ body {
     padding: 5px;
     width: 75%;
     height: 75%;
+    border: solid #757575;
+    border-width: 2px 6px 6px 2px;
 }
 .article {
-    position: absolute;
-    float: right;
     width: 20%;
     margin: 15px;
     padding: 10px;
-    background-color: #aaaaaa;
+    background-color: #c7c7c7;
     color: red;
-    border: 3px solid #000000;
+    border: solid #757575;
+    border-width: 2px 6px 6px 2px;
 
 }
 #footer {
     clear:both;
-    background-color: #000000;
+    background-color: #b5c8d0;
     color: #ffffff;
     margin: 10px;
     padding: 5px;
+    text-align: center;
+    border: solid #757575;
+    border-width: 2px 6px 6px 2px;
 }
 #header {
     clear:both;
-    background-color: #6699ff;
+    background-color: #b5c8d0;
     color: #ffffff;
     margin: 10px;
     padding: 5px;
+    text-align: center;
+    border: solid #757575;
+    border-width: 2px 6px 6px 2px;
+
 }
-#right {
+#menu {
+    position: fixed;
+    right: 10px;
     float: right;
-    width: 20%;
-    background-color: #6699ff;
+    top: 12.5%;
+    height: 73%;
+    width: 18%;
+    background-color: #b5c8d0;
     color: #ffffff;
-    margin: 10px;
-    padding: 5px;
+    margin-top: -2.5em;
+    padding: 15px;
+    border: solid #757575;
+    border-width: 2px 6px 6px 2px;
 }
 
 
